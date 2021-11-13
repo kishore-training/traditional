@@ -13,3 +13,7 @@ This is a Java Spring boot based application . The executable jar (traditional-0
   
   # Functionality
   This application has a default user <code> tenant_admin </code> with password <code> password </code> . You can login to this application as an administrator and then create Doctor users and appointment for a doctor with a patient for a specific date time. You can also view the current day appointments of each doctor . You can also login as the Doctor User that has been created but these users can create appointments only and cannot create other users in the system.
+  
+  
+  # Monitoring
+  For monitoring both spring boot actuator and micrometer is enabled in pom.xml and also the listDoctors contain @Timed annotation
